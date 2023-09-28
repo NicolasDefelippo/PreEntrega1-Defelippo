@@ -1,13 +1,14 @@
 import { CartWidget } from "../../common/cartWidget/CartWidget";
+import "./navbar.css";
 
 export const Navbar = () => {
   return (
-    <div>
+    <div className="navbar">
       <h4>logo</h4>
-      <ul>
-        <li>Hola</li>
-        <li>1</li>
-        <li>2</li>
+      <ul className="navbar-list">
+        <li>Inicio</li>
+        <li>Productos</li>
+        <li>Galeria</li>
       </ul>
       <CartWidget />
     </div>
