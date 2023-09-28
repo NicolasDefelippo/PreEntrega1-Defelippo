@@ -1,12 +1,17 @@
+import { Navbar } from "./componentes/layout/navbar/Navbar";
+import ItemListContainer from "./componentes/pages/itemListContainer/itemListContainer";
+
+
 function App() {
 
-  return (
+  let saludo = "Hola pepito como estas"
 
-      <h1>
-        Hola
-      </h1>
-  )
-  
+  return (
+    <div>
+      <Navbar />
+      <ItemListContainer saludo= {saludo} nombre = {"Nicolas"} />
+    </div>
+  );
 }
 
-export default App
+export default App;
