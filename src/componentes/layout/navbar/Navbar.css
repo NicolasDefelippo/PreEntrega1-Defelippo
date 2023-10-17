@@ -22,3 +22,8 @@
   .navbar li {
     font-size: 18px;
   }
+
+  .navbar img {
+    width: 100px;
+    height: 50px;
+  }

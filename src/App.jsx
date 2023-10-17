@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <ItemListContainer saludo= {saludo} nombre = {"Nicolas"} />
+      <ItemListContainer />
     </div>
   );
 }

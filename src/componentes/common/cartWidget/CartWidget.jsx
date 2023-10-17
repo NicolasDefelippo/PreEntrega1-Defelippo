@@ -1,10 +1,13 @@
-import { BsCart4 } from "react-icons/bs";
+import Badge from '@mui/material/Badge';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 export const CartWidget = () => {
   return (
     <div>
-      <span>1</span>
-      <BsCart4 />
+      <Badge badgeContent={4} showZero color="primary">
+        <ShoppingCartIcon color="action" />
+      </Badge>
     </div>
   );
 };
+

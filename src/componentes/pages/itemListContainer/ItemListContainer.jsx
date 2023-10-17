@@ -1,11 +1,23 @@
-const ItemListContainer = ( {saludo, nombre} ) => {
+import { useEffect, useState } from "react";
+import { products } from "../../../productsMock"
+import ItemList from "./ItemList";
 
-  return (
-    <div>
-        <h4>{saludo}</h4>
-        <h5>Mi nombre es {nombre}</h5>
-    </div>
-  )
-}
 
-export default ItemListContainer
+const ItemListContainer = () => {
+
+  const [items, setItems] = useState([]);
+
+  useEffect(() => {
+    
+    const tarea = new Promise((resolve, reject) => {
+      resolve(products);
+    });
+
+    tarea.then((res) => setItems(res)).catch((error) => console.log(error));
+
+  }, []);
+
+  return <ItemList items = {items}/>
+};
+
+export default ItemListContainer;

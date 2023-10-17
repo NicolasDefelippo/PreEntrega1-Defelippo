@@ -1,0 +1,42 @@
+export let products = [
+    {
+      id: 1,
+      title: "Nike ACG",
+      price: 32000,
+      stock: 5,
+      description: "Remera de Moda para Hombre",
+      detalle: "Suelta, amplia y lista para la vida al aire libre, la playera Nike ACG mantiene la comodidad y le suma un gráfico que representa la línea All Conditions Gear.",
+      category: "remeras",
+      img: "https://nikearprod.vtexassets.com/arquivos/ids/655046-800-800?v=638213271162170000",
+    },
+    {
+      id: 2,
+      title: "Jordan Brooklyn Fleece",
+      price: 31500,
+      stock: 5,
+      description: "Short Jordan para Hombre",
+      detalle: "Equípate con la comodidad de todos los días. Confeccionados con un suave tejido Fleece en un ajuste holgado, estos shorts cuentan con un logotipo de Jumpman bordado que mejora un estilo de herencia.",
+      category: "bermudas",
+      img: "https://nikearprod.vtexassets.com/arquivos/ids/211230-800-800?v=638098217261000000",
+    },
+    {
+      id: 3,
+      title: "Nike Life",
+      price: 145000,
+      stock: 5,
+      description: "Campera de Moda para Hombre",
+      detalle: "Construido para adaptarse a tu pie y diseñado para la comodidad, el Nike Air Huarache trae de vuelta el favorito a nivel de calle.",
+      category: "camperas",
+      img: "https://nikearprod.vtexassets.com/arquivos/ids/648098-800-800?v=638212463533370000",
+    },
+    {
+      id: 4,
+      title: "Air Jordan 1 Low",
+      price: 88000,
+      stock: 5,
+      description: "Zapatillas de Moda para Hombre",
+      detalle: "Inspirado en el original que se lanzó en 1985, el Air Jordan 1 Low ofrece un estilo clasico impecable que se resulta familiar, pero renovado.",
+      category: "zapatillas",
+      img: "https://nikearprod.vtexassets.com/arquivos/ids/378374-800-800?v=638138921618200000",
+    }
+  ];
